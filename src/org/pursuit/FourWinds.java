@@ -6,19 +6,32 @@ public class FourWinds {
     public static final int EAST = 2;
     public static final int WEST = 3;
 
-    public static int getNORTH() {
+    /**
+     * Should follow the instructions -
+     *
+     * This class should also have 4 (four) static "getter" methods, with public access modifiers
+     * getNorth, getSouth, getEast, and getWest,
+     *
+     * a project should be consistent with naming conventions throughout the code
+     * For example, in Java,
+     * all classes should be named using UpperCamelCase,
+     * while methods and variables should have lowerCamelCase names.
+     * Static final variables will be all uppercase
+     *
+     */
+    public static int getNorth() {
         return NORTH;
     }
 
-    public static int getSOUTH() {
+    public static int getSouth() {
         return SOUTH;
     }
 
-    public static int getEAST() {
+    public static int getEast() {
         return EAST;
     }
 
-    public static int getWEST() {
+    public static int getWest() {
         return WEST;
     }
 

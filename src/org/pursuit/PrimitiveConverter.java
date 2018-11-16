@@ -2,6 +2,17 @@ package org.pursuit;
 //TASK #01
 
 public class PrimitiveConverter {
+    /**
+     * Unnecessary boxing 'Integer.valueOf(intPar)'
+     *
+     * Inspection info: wrapping of primitive values in objects.
+     *
+     * Explicit manual boxing is unnecessary under Java 5 and newer,
+     * and can be safely removed.
+     *
+     * Follow Intellij hints/cautions you have functional code but you can save yourself some
+     * typing
+     */
 
     public Integer intToInteger(int intPar){
         return Integer.valueOf(intPar);

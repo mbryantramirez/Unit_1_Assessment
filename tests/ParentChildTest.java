@@ -1,6 +1,8 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.pursuit.Child;
+import org.pursuit.Parent;
 
 public class ParentChildTest {
     Parent parent;

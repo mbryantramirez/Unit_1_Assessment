@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.pursuit.FourWinds;
 
 public class FourWindsTest {
     public static int sNorth;

@@ -4,7 +4,7 @@ public class Parent {
     private String eyeColor;
     private String hairColor;
 
-    Parent(String eyeColor, String hairColor){
+    public Parent(String eyeColor, String hairColor){
         this.eyeColor = eyeColor;
         this.hairColor = hairColor;
     }

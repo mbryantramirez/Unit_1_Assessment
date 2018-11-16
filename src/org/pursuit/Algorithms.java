@@ -6,6 +6,10 @@ import java.util.HashSet;
 //TASK #05
 public class Algorithms implements DataStructures {
 
+    /**
+     * Awesome!
+     */
+
     @Override
     public char[] stringToCharArray(String word) {
         char[] array = new char[word.length()];
@@ -31,6 +35,10 @@ public class Algorithms implements DataStructures {
     @Override
     public HashMap<String, Integer> wordLength(String[] wordArray) {
         HashMap<String, Integer> hashMap = new HashMap<>();
+
+        /**
+         * You can follow intellij suggestions here but this is good
+         */
 
         for(int i = 0; i < wordArray.length;i++){
             hashMap.put(wordArray[i],wordArray[i].length());
